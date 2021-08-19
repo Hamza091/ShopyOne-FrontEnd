@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    width: 100%;
 }
 .search-bar
 {
@@ -51,4 +52,10 @@
 .button:hover
 {
     background-color: #50585fc2;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    
+  
 }
