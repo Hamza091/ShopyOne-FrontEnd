@@ -8,7 +8,8 @@ function SearchBar() {
 
     const [input,setInput] = useState<string>("")
     const [data,setData] = useState<Array<IProduct>>([])
-
+    const [selectedValue,setSelectedValue] = useState<string>("default")
+    
     async function handleClick(){
          
         try{
@@ -24,7 +25,12 @@ function SearchBar() {
         }
         setInput("")
     }
+    function getSelectValue()
+    {
+        setSelectedValue(((document.getElementById("dropdown") as HTMLInputElement).value))
 
+    }
+    
     return (
         <div className="main-container">
             
@@ -35,10 +41,15 @@ function SearchBar() {
                         <button className="button" onClick={handleClick}>Search</button>
                     </div>
                 </div>
+                <select name="website" id="dropdown" onChange={getSelectValue} >
+                    <option value="default">Sort By</option>
+                    <option value="amazon">Amazon</option>
+                    <option value="daraz">Daraz</option>
+                </select>
             </div>
 
                 {/* render products when there is some product in array */}
-            {data.length>0?<Products products={data}/>:null}
+            {data.length>0?<Products productProps={{data,selectedValue}}/>:null}
     
         </div>
     )

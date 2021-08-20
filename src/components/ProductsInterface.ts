@@ -7,6 +7,7 @@ interface IProduct{
     price?:string,
     ratings:string,
     product_image?:string,
+    name:string
 
 };
 
