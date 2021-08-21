@@ -54,10 +54,12 @@ span{
     margin-left: 0rem;
     border-radius: 0.8rem;
     text-align: center;
-    color: rgb(51, 50, 50);
-    background-color: rgb(223, 223, 223);
+    color: white;
+    background-color: #383b3dc2;
     border: 1px solid gray;
     font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 .product-ratings{
     display: flex;
