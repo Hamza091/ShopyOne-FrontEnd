@@ -22,8 +22,8 @@ function SearchBar() {
             setLoadingData(true)
             
             try{
-
-                const searchResults = await axios.get('http://localhost:8000/scrap/',{
+                // 
+                const searchResults = await axios.get('http://127.0.0.1:8000/scrap/',{
                     params:input
                 })
 
