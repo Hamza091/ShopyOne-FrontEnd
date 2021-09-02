@@ -1,5 +1,25 @@
 # About
-ShopyOne is a web scrapper which scrappes products from different website. Currently it scrappes product from Daraz and Amazon.
+ShopyOne is a web scrapper which scrappes products from different website. Currently it scrap products from Daraz and Amazon.
 
 <br/>
-![alt text](https://raw.githubusercontent.com/Hamza091/ShopyOne-FrontEnd/main/2.PNG)
+<img
+src="./4.PNG"
+raw=true
+alt="Subject Pronouns"
+style="margin-right: 10px;"
+/>
+<br/>
+<img
+src="./3.PNG"
+raw=true
+alt="Subject Pronouns"
+style="margin-right: 10px;"
+/>
+
+<br/>
+<img
+src="./2.PNG"
+raw=true
+alt="Subject Pronouns"
+style="margin-right: 10px;"
+/>
